@@ -1,14 +1,23 @@
 import './App.css';
-import {Routes, Route, Link} from 'react-router-dom';
-import Profile from './Components/Pages/Profile';
+import Left from './Components/Left/Left';
+import Top from './Components/Top/Top';
+import {Routes, Route} from 'react-router-dom';
+import Header from './Components/Header/Header';
+import Profile from './Components/Profile/Profile';
+import Swiper from './Components/Swiper/Swiper';
 
 function App() {
   return (
-    <div>
-      <Link to="/profile">Profile</Link>
+    <div className="container">
+      <div className="app__div">
+      <Left/>
       <Routes>
-        <Route path="/profile" element={<Profile/>} />
+        <Route path="/" element={<Header/>}/>
+        <Route path="/trending" element={<Profile/>}/>
+        <Route path="/swipper" element={<Swiper/>}/>
       </Routes>
+      <Top/>
+      </div>
     </div>
   );
 }
