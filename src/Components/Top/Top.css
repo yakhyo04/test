@@ -6,7 +6,7 @@
 }
 .top__div{
     width: 630px;
-    background-color: #EBEBEB;
+    background-color: #a3a2a2;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
@@ -20,7 +20,7 @@
 .top__input{
     padding: 5px;
     width: 100%;
-    background-color: #EBEBEB;
+    background-color: #a3a2a2;
     border: none;
     outline: none;
 }

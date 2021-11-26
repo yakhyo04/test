@@ -5,6 +5,8 @@ import video from '../../Assets/Svg/video.svg';
 import dots from '../../Assets/Svg/dots.svg';
 import notifications from '../../Assets/Svg/notifications.svg';
 import profilepic from '../../Assets/Svg/profilepic.svg';
+import DarkMode from '../DarkMode/DarkMode';
+
 const Top = () => {
     return (
         <div className="top">
@@ -15,6 +17,9 @@ const Top = () => {
             </div>
             <div>
                 <ul className="top__list">
+                    <li className="top__item">
+                        <DarkMode/>
+                    </li>
                     <li className="top__item">
                         <img src={video} alt="" />
                     </li>
