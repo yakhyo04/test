@@ -9,6 +9,8 @@ import Picture from './Components/Picture/Picture';
 import DollieProfile from './Components/Profile/DollieProfile';
 import Foodprofile from './Components/Profile/FoodProfile';
 import Asteroids from './Components/Special/asteroids';
+import Abrief from './Components/Special/Abrief';
+import Selecting from './Components/Special/Selecting';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path="/dollieblair" element={<DollieProfile/>} />
         <Route path="/foodanddrink" element={<Foodprofile/>}/>
         <Route path="/asteroids-dollie" element={<Asteroids/>} />
+        <Route path="/abriefhistory" element={<Abrief/>} />
+        <Route path="/selecting-dollie" element={<Selecting/>} />
       </Routes>
       </div>
     </div>

@@ -14,13 +14,13 @@ import notifications from '../../Assets/Svg/notifications.svg';
 import dollieblair from '../../Assets/Image/dollieblair.png';
 import { NavLink } from 'react-router-dom';
 // import asteroids from '../../Assets/Image/asteroids.png';
-const Asteroids = () => {
+const Abrief = () => {
     return (
         <div>
             <div className="special__div">
                 <nav className="special__nav">
-                <img className="asteroids" src={asteroids} alt="" />
-                <h1 className="special__title">Asteroids</h1>
+                <img className="asteroids" src={abrief} alt="" />
+                <h1 className="special__title">A Brief History of creation</h1>
                 <div className="special__div">
                     <nav>
                         <p>123K views</p>
@@ -69,8 +69,8 @@ const Asteroids = () => {
                     <NavLink className="header__link" to="/abriefhistory">
                 <li className="header__item">
                     <img src={abrief} alt="" />
-                    <h3>A Brief History Of Creation</h3>
-                    <p>80k views  ·  3 days ago <span>Dollie Blair</span></p>
+                    <p>A Brief History Of Creation</p>
+                    {/* <p>80k views  ·  3 days ago <span>Dollie Blair</span></p> */}
                 </li>
                     </NavLink>
                     <NavLink className="header__link" to="/">
@@ -115,4 +115,4 @@ const Asteroids = () => {
     );
 }
 
-export default Asteroids;
+export default Abrief;

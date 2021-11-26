@@ -4,6 +4,7 @@
 
 .special__div{
     display: flex;
+    justify-content: space-between;
 }
 .special__nav{
     display: block;
@@ -14,4 +15,22 @@
 .special__title{
     font-size: 30px;
     font-weight: bold;
+}
+.special__list{
+    list-style-type: none;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.special__item{
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+}
+.divs{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

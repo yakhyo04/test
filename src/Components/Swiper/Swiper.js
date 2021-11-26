@@ -9,6 +9,7 @@ import medicalcare from '../../Assets/Image/medicalcare.png';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { NavLink } from 'react-router-dom';
 
 export default class Responsive extends Component {
   render() {
@@ -55,36 +56,48 @@ export default class Responsive extends Component {
       <div>
         <ul className="header__list">
         <Slider className="slider" {...settings}>
+          <NavLink to="/abriefhistory" className="header__link" >
                 <li className="header__item">
                     <img src={abrief} alt="" />
                     <h3>A Brief History Of Creation</h3>
                     <p>80k views  ·  3 days ago <span>Dollie Blair</span></p>
                 </li>
+          </NavLink>
+          <NavLink to="/" className="header__link" >
                 <li className="header__item">
                     <img src={selecting} alt="" />
                     <h3>Selecting The Right Hotel</h3>
                     <p>123k views  ·  1 months ago <span>Dollie Blair</span></p>
                 </li>
+                </NavLink>
+                  <NavLink className="header__link" to="/asteroids-dollie">
                 <li className="header__item">
                     <img src={asteroids} alt="" />
                     <h3>Asteroids</h3>
                     <p>43k views  ·  12 days ago <span>Dollie Blair</span></p>
                 </li>
+                  </NavLink>
+          <NavLink to="/" className="header__link" >
                 <li className="header__item">
                     <img src={telescopes} alt="" />
                     <h3>Telescopes 101</h3>
                     <p>11k views  ·  6 months ago  <span>Dollie Blair</span></p>
                 </li>
+                </NavLink>
+          <NavLink to="/" className="header__link" >
                 <li className="header__item">
                     <img src={medicalcare} alt="" />
                     <h3>Medical Care Is Just</h3>
                     <p>18k views  ·  2 days ago <span>Dollie Blair</span></p>
                 </li>
+                </NavLink>
+          <NavLink to="/" className="header__link" >
                 <li className="header__item">
                     <img src={moongazing} alt="" />
                     <h3>Moon Gazing</h3>
                     <p>67k views  ·  4 months ago <span>Dollie Blair</span></p>
                 </li>
+                </NavLink>
         </Slider>
             </ul>
       </div>

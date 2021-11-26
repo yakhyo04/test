@@ -14,13 +14,13 @@ import notifications from '../../Assets/Svg/notifications.svg';
 import dollieblair from '../../Assets/Image/dollieblair.png';
 import { NavLink } from 'react-router-dom';
 // import asteroids from '../../Assets/Image/asteroids.png';
-const Asteroids = () => {
+const Selecting = () => {
     return (
         <div>
             <div className="special__div">
                 <nav className="special__nav">
-                <img className="asteroids" src={asteroids} alt="" />
-                <h1 className="special__title">Asteroids</h1>
+                <img className="asteroids" src={selecting} alt="" />
+                <h1 className="special__title">Selecting</h1>
                 <div className="special__div">
                     <nav>
                         <p>123K views</p>
@@ -115,4 +115,4 @@ const Asteroids = () => {
     );
 }
 
-export default Asteroids;
+export default Selecting;
