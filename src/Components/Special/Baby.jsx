@@ -1,5 +1,5 @@
 import './Special.css';
-import React, { Component } from "react";
+import React from "react";
 import astronomy from '../../Assets/Image/astronomy.png';
 import advertising from '../../Assets/Image/advertising.png';
 import radio from '../../Assets/Image/radio.png';
@@ -57,7 +57,7 @@ const Baby = () => {
                            </nav>
                            <nav>
                            <img src={notifications} alt="notifications" />
-                    <a className="profile__btn" href="#">Subscribe 2.3m</a>
+                    <a className="profile__btn" href="/some/valid/uri#top">Subscribe 2.3m</a>
                            </nav>
                 </nav>
                            <nav>

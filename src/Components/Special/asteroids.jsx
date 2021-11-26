@@ -56,7 +56,7 @@ const Asteroids = () => {
                            </nav>
                            <nav>
                            <img src={notifications} alt="notifications" />
-                    <a className="profile__btn" href="#">Subscribe 2.3m</a>
+                    <a className="profile__btn" href="/some/valid/uri#top">Subscribe 2.3m</a>
                            </nav>
                 </nav>
                            <nav>

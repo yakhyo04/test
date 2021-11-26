@@ -23,18 +23,18 @@ const Foodprofile = () => {
                 </nav>
                 <nav className="profile__navbar">
                 <img src={notifications} alt="notifications" />
-                    <a className="profile__btn" href="#">Subscribe 2.3m</a>
+                    <a className="profile__btn" href="/some/valid/uri#top">Subscribe 2.3m</a>
                 </nav>
             </div>
             <ul className="profile__list">
                 <li className="profile__item">
                     <NavLink className="profile__link" to="/foodanddrink">Home</NavLink>
                 </li>
-                <li className="profile__item"><a className="profile__link" href="#">Videos</a></li>
-                <li className="profile__item"><a className="profile__link" href="#">Playlists</a></li>
-                <li className="profile__item"><a className="profile__link" href="#">Channels</a></li>
-                <li className="profile__item"><a className="profile__link" href="#">Discussion</a></li>
-                <li className="profile__item"><a className="profile__link" href="#">About</a></li>
+                <li className="profile__item"><a className="profile__link" href="/some/valid/uri#top">Videos</a></li>
+                <li className="profile__item"><a className="profile__link" href="/some/valid/uri#top">Playlists</a></li>
+                <li className="profile__item"><a className="profile__link" href="/some/valid/uri#top">Channels</a></li>
+                <li className="profile__item"><a className="profile__link" href="/some/valid/uri#top">Discussion</a></li>
+                <li className="profile__item"><a className="profile__link" href="/some/valid/uri#top">About</a></li>
                 <li className="profile__item"><img src={search} alt="search" /></li>
             </ul>
 

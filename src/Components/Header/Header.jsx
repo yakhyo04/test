@@ -1,5 +1,5 @@
 import './Header.css';
-import React, {Component} from 'react';
+import React from 'react';
 import dollieblair from '../../Assets/Image/dollieblair.png';
 import fooddrink from '../../Assets/Image/fooddrink.png';
 import Swiper from '../Swiper/Swiper';
