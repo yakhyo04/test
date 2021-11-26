@@ -69,8 +69,8 @@ export default class Responsive extends Component {
           </NavLink>
           <NavLink to="/moonred-dollie" className="header__link">
                 <li className="header__item">
-                    <h3>Moon Gazing</h3>
                     <img src={moonred} alt="" />
+                    <h3>Moon Gazing</h3>
                     <p>125k views  ·  4 months ago<span>Dollie Blair</span></p>
                 </li>
           </NavLink>
