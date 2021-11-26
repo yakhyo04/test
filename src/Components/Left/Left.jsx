@@ -13,7 +13,9 @@ import likedvideos from '../../Assets/Svg/likedvideos.svg';
 import music from '../../Assets/Svg/music.svg';
 import games from '../../Assets/Svg/games.svg';
 import showmore from '../../Assets/Svg/showmore.svg';
+import dollieblair from '../../Assets/Image/dollieblair.png';
 import setting from '../../Assets/Svg/setting.svg';
+import fooddrink from '../../Assets/Image/fooddrink.png';
 import margaret from '../../Assets/Image/margaret.png';
 import {NavLink} from 'react-router-dom';
 
@@ -44,7 +46,11 @@ const Left = () => {
                 <li className="left__item"><NavLink className="left__link" to="games"><img src={games} alt="games" />Games</NavLink></li>
                 <li className="left__item"><NavLink className="left__link" to="showmore"><img src={showmore} alt="showmore" />Show more</NavLink></li>
                 <li className="left__item"><h2>Subscribtions</h2></li>
+
+
                 <li className="left__item"><NavLink className="left__link" to="margaret"><img src={margaret} className="margaret__img" alt="margaret" /><span className="margaret__span">Margaret Phelps</span></NavLink></li>
+                <li className="left__item"><NavLink className="left__link" to="dollieblair"><img src={dollieblair} className="margaret__img" alt="margaret" /><span className="margaret__span">Dollie Blair</span></NavLink></li>
+                <li className="left__item"><NavLink className="left__link" to="foodanddrink"><img src={fooddrink} className="margaret__img" alt="margaret" /><span className="margaret__span">Food & Drink</span></NavLink></li>
                 <li className="left__item"><NavLink className="left__link" to="setting"><img src={setting} alt="setting" />Setting</NavLink></li>
             </ul>
         </div>
