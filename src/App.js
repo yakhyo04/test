@@ -29,6 +29,7 @@ import Astronomyorastrology from './Components/Special/Astronomyorastrology';
 import Autoresponder from './Components/Special/Autoresponder';
 import Babymonitor from './Components/Special/Babymonitor';
 import Radioastronomy from './Components/Special/Radioastronomy';
+import Choosing from './Components/Special/Choosing';
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
         <Route path="/autoresponder-food" element={<Autoresponder/>} />
         <Route path="/babymonitor-food" element={<Babymonitor/>} />
         <Route path="/radioastronomy-food" element={<Radioastronomy/>} />
+        <Route path="/choosing" element={<Choosing/>} />
       </Routes>
       </div>
     </div>

@@ -43,7 +43,9 @@ const Profile = () => {
 
             <div className="profile__div2">
                 <nav>
+                    <NavLink to="/choosing" className="header__link">
                 <img src={choosing} alt="" />
+                    </NavLink>
                 </nav>
                 <nav className="profile__navv">
                 <h3 className="profile__title">Choosing The Best Audio Player Software For Your Computer</h3>

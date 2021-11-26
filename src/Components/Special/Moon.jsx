@@ -45,10 +45,10 @@ const Moon = () => {
                     <nav className="divs">
                         <nav className="profile__div">
                            <div>
-                            <img src={edward} alt="" />
+                            <img width="50px" src={edward} alt="" />
                            </div>
                            <div>
-                           <h2>Recomended</h2>
+                           <h2>Edward Osborne</h2>
                            <p style={{color: '#C2C2C2', fontWeight: 'bold', fontSize: '18px'}}>245K subscribed</p>
                         </div>
                            </nav>

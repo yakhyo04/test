@@ -48,7 +48,7 @@ const MoonRed = () => {
                             <img src={dollieblair} alt="" />
                            </div>
                            <div>
-                           <h2>Recomended</h2>
+                           <h2>Dollie Blair</h2>
                            <p style={{color: '#C2C2C2', fontWeight: 'bold', fontSize: '18px'}}>245K subscribed</p>
                         </div>
                            </nav>
