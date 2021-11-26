@@ -23,6 +23,12 @@ import Asteroid from './Components/Special/Asteroid';
 import Astronomy from './Components/Special/Astronomy';
 import Baby from './Components/Special/Baby';
 import Radio from './Components/Special/Radio';
+import Advertisingoutdoors from './Components/Special/Advertisingoutdoors';
+import Astreoids2 from './Components/Special/Astreoids2';
+import Astronomyorastrology from './Components/Special/Astronomyorastrology';
+import Autoresponder from './Components/Special/Autoresponder';
+import Babymonitor from './Components/Special/Babymonitor';
+import Radioastronomy from './Components/Special/Radioastronomy';
 
 function App() {
   return (
@@ -52,6 +58,12 @@ function App() {
         <Route path="/astronomy-food" element={<Astronomy/>} />
         <Route path="/baby-food" element={<Baby/>} />
         <Route path="/radio-food" element={<Radio/>} />
+        <Route path="/advertisingoutdoors-food" element={<Advertisingoutdoors/>} />
+        <Route path="/astreoids2-food" element={<Astreoids2/>}/>
+        <Route path="/astronomyorastrology-food" element={<Astronomyorastrology/>} />
+        <Route path="/autoresponder-food" element={<Autoresponder/>} />
+        <Route path="/babymonitor-food" element={<Babymonitor/>} />
+        <Route path="/radioastronomy-food" element={<Radioastronomy/>} />
       </Routes>
       </div>
     </div>
