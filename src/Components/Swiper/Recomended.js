@@ -16,7 +16,7 @@ export default class Responsive extends Component {
       speed: 500,
       slidesToShow: 2,
       slidesToScroll: 1,
-      speed: 15000,
+      // speed: 15000,
       autoplay: true,
       autoplaySpeed: 2000,
       cssEase: "linear",
