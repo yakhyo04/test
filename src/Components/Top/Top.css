@@ -1,0 +1,34 @@
+.top{
+   width: 1118px;
+   position: absolute;
+   /* left: 220px; */
+   right: 0;
+}
+.top__div{
+    width: 630px;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 20px;   
+}
+.top__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top__input{
+    padding: 5px;
+    width: 100%;
+    background-color: #EBEBEB;
+    border: none;
+    outline: none;
+}
+.top__list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.top__item{
+    margin-left: 30px;
+}

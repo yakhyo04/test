@@ -1,0 +1,23 @@
+.header{
+    margin-top: 60px;
+}
+.header__text{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.header__list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.header__item{
+    margin: 20px;
+}
+.header__div{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

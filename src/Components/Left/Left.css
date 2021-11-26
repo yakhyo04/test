@@ -1,0 +1,34 @@
+.left__list{
+    list-style-type: none;
+    padding: 0;
+    /* margin: 0; */
+    width: 222px;
+    /* border: 1px solid red; */
+}
+.left__link{
+    text-decoration: none;
+    color: #898989;
+    font-size: 25px;
+}
+.left__item{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.left__item img{
+    margin-right: 20px;
+}
+.active{
+    color: red;
+    font-size: 23px;
+    font-weight: bold;
+}
+.margaret__img{
+    width: 25px;
+    height: 25px;
+}
+.margaret__span{
+    font-size: 16px;
+}
