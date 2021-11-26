@@ -21,3 +21,7 @@
     align-items: center;
     justify-content: space-between;
 }
+.header__link{
+    text-decoration: none;
+    color: #000;
+}

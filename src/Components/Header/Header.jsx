@@ -5,14 +5,17 @@ import fooddrink from '../../Assets/Image/fooddrink.png';
 import Swiper from '../Swiper/Swiper';
 import Recomended from '../Swiper/Recomended';
 import FoodDrink from '../Swiper/FoodDrink';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     
     return (
         <header className="header">
+            <NavLink className="header__link" to="/dollieblair">
             <p className="header__text">
-              <img src={dollieblair} alt="" />Dollie Blair
+                <img src={dollieblair} alt="" />Dollie Blair
             </p>
+            </NavLink>
             {/* <ul className="header__list">
                 <li className="header__item">
                     <img src={abrief} alt="" />

@@ -6,6 +6,7 @@ import Header from './Components/Header/Header';
 import Profile from './Components/Profile/Profile';
 import Swiper from './Components/Swiper/Swiper';
 import Picture from './Components/Picture/Picture';
+import DollieProfile from './Components/Profile/DollieProfile';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/margaret" element={<Profile/>}/>
         <Route path="/swipper" element={<Swiper/>}/>
         <Route path="/picture" element={<Picture/>}/>
+        <Route path="/dollieblair" element={<DollieProfile/>} />
       </Routes>
       </div>
     </div>
