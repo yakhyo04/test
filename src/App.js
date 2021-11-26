@@ -17,6 +17,12 @@ import Moongazing from './Components/Special/Moongazing';
 import Moon from './Components/Special/Moon';
 import Dude from './Components/Special/Dude';
 import MoonRed from './Components/Special/MoonRed';
+import Advertising from './Components/Special/Advertising';
+import Agood from './Components/Special/Agood';
+import Asteroid from './Components/Special/Asteroid';
+import Astronomy from './Components/Special/Astronomy';
+import Baby from './Components/Special/Baby';
+import Radio from './Components/Special/Radio';
 
 function App() {
   return (
@@ -40,6 +46,12 @@ function App() {
         <Route path="/moon-edward" element={<Moon/>} />
         <Route path="/dude-gussie" element={<Dude/>} />
         <Route path="/moonred-dollie" element={<MoonRed/>} />
+        <Route path="/advertising-food" element={<Advertising/>} />
+        <Route path="/agood-food" element={<Agood/>} />
+        <Route path="/asteroid-food" element={<Asteroid/>} />
+        <Route path="/astronomy-food" element={<Astronomy/>} />
+        <Route path="/baby-food" element={<Baby/>} />
+        <Route path="/radio-food" element={<Radio/>} />
       </Routes>
       </div>
     </div>

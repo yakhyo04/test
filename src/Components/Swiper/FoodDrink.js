@@ -10,6 +10,7 @@ import asteroid from '../../Assets/Image/asteroid.png';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { NavLink } from 'react-router-dom';
 
 export default class Responsive extends Component {
   render() {
@@ -56,36 +57,48 @@ export default class Responsive extends Component {
       <div>
         <ul className="header__list">
         <Slider className="slider" {...settings}>
+          <NavLink to="/astronomy-food" className="header__link">
                 <li className="header__item">
                     <img src={astronomy} alt="" />
                     <h3>Astronomy Or Astrology</h3>
                     <p>240k views  ·  4 months ago <span>Food & Drink</span></p>
                 </li>
+          </NavLink>
+          <NavLink to="/advertising-food" className="header__link">
                 <li className="header__item">
                     <img src={advertising} alt="" />
                     <h3>Advertising Outdoors</h3>
                     <p>13k views  ·  15 days ago <span>Food & Drink</span></p>
                 </li>
+          </NavLink>
+          <NavLink to="/radio-food" className="header__link">
                 <li className="header__item">
                     <img src={radio} alt="" />
                     <h3>Radio Astronomy</h3>
                     <p>1k views  ·  11 months ago <span>Food & Drink</span></p>
                 </li>
+          </NavLink>
+          <NavLink to="/agood-food" className="header__link">
                 <li className="header__item">
                     <img src={agood} alt="" />
                     <h3>A Good Autoresponder</h3>
                     <p>45k views  ·  2 months ago <span>Food & Drink</span></p>
                 </li>
+          </NavLink>
+          <NavLink to="/baby-food" className="header__link">
                 <li className="header__item">
                     <img src={baby} alt="" />
                     <h3>Baby Monitor Technology</h3>
                     <p>86k views  ·  7 days ago <span>Food & Drink</span></p>
                 </li>
+          </NavLink>
+          <NavLink to="/asteroid-food" className="header__link">
                 <li className="header__item">
                     <img src={asteroid} alt="" />
                     <h3>Asteroids</h3>
                     <p>123k views  ·  4 months ago <span>Dollie Blair</span></p>
                 </li>
+          </NavLink>
         </Slider>
             </ul>
       </div>
