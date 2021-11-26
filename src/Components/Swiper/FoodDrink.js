@@ -6,7 +6,6 @@ import radio from '../../Assets/Image/radio.png';
 import agood from '../../Assets/Image/agood.png';
 import baby from '../../Assets/Image/baby.png';
 import asteroid from '../../Assets/Image/asteroid.png';
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";

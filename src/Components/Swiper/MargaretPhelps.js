@@ -1,13 +1,11 @@
 import './Swiper.css';
 import React, { Component } from "react";
-
 import astronomyorastrology from '../../Assets/Image/astronomyorastrology.png';
 import advertisingoutdoors from '../../Assets/Image/advertisingoutdoors.png';
 import radioastronomy from '../../Assets/Image/radioastronomy.png';
 import autoresponder from '../../Assets/Image/autoresponder.png';
 import babymonitor from '../../Assets/Image/babymonitor.png';
 import astreoids2 from '../../Assets/Image/astreoids2.png';
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
