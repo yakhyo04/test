@@ -1,26 +1,23 @@
-import './Special.css';
 import React from 'react';
-import abrief from '../../Assets/Image/abrief.png';
-import selecting from '../../Assets/Image/selecting.png';
-import asteroids from '../../Assets/Image/asteroids.png';
-import telescopes from '../../Assets/Image/telescopes.png';
-import moongazing from '../../Assets/Image/moongazing.png';
-import medicalcare from '../../Assets/Image/medicalcare.png';
+import dude from '../../Assets/Image/dude.png';
+import moon from '../../Assets/Image/moon.png';
+import moonred from '../../Assets/Image/moon-red.png';
 import good from '../../Assets/Svg/good.svg';
 import bad from '../../Assets/Svg/bad.svg';
 import share from '../../Assets/Svg/share.svg';
 import threedots from '../../Assets/Svg/threedots.svg';
-import notifications from '../../Assets/Svg/notifications.svg';
 import dollieblair from '../../Assets/Image/dollieblair.png';
+import notifications from '../../Assets/Svg/notifications.svg';
+
 import { NavLink } from 'react-router-dom';
-// import asteroids from '../../Assets/Image/asteroids.png';
-const Abrief = () => {
+
+const MoonRed = () => {
     return (
         <div>
             <div className="special__div">
                 <nav className="special__nav">
-                <img className="asteroids" src={abrief} alt="" />
-                <h1 className="special__title">A Brief History of creation</h1>
+                <img className="asteroids" src={moonred} alt="" />
+                <h1 className="special__title">Moon Gazing</h1>
                 <div className="special__div">
                     <nav>
                         <p>123K views</p>
@@ -51,7 +48,7 @@ const Abrief = () => {
                             <img src={dollieblair} alt="" />
                            </div>
                            <div>
-                           <h2>Dollie Blair</h2>
+                           <h2>Recomended</h2>
                            <p style={{color: '#C2C2C2', fontWeight: 'bold', fontSize: '18px'}}>245K subscribed</p>
                         </div>
                            </nav>
@@ -66,46 +63,25 @@ const Abrief = () => {
                 </nav>
                 <nav>
                 <ul style={{display: 'block', marginTop: '100px'}} className="header__list">
-                    <NavLink className="header__link" to="/abriefhistory">
-                <li className="header__item">
-                    <img src={abrief} alt="" />
-                    <p>A Brief History Of Creation</p>
-                    {/* <p>80k views  ·  3 days ago <span>Dollie Blair</span></p> */}
+                    <NavLink className="header__link" to="/dude-gussie">
+                    <li className="header__item">
+                    <img src={dude} alt="" />
+                    <h3>Dude You Re Getting A Telescope</h3>
+                    <p>34k views  ·  5 months ago <span>Gussie French</span></p>
                 </li>
                     </NavLink>
-                    <NavLink className="header__link" to="/selecting-dollie">
-                <li className="header__item">
-                    <img src={selecting} alt="" />
-                    <h3>Selecting The Right Hotel</h3>
-                    <p>123k views  ·  1 months ago <span>Dollie Blair</span></p>
-                </li>
-                    </NavLink>
-                <NavLink className="header__link" to="/asteroids-dollie">
-                <li className="header__item">
-                    <img src={asteroids} alt="" />
-                    <h3>Asteroids</h3>
-                    {/* <p>43k views  ·  12 days ago <span>Dollie Blair</span></p> */}
-                </li>
-                </NavLink>
-                <NavLink className="header__link" to="/telescopes-dollie">
-                <li className="header__item">
-                    <img src={telescopes} alt="" />
-                    <h3>Telescopes 101</h3>
-                    <p>11k views  ·  6 months ago  <span>Dollie Blair</span></p>
-                </li>
-                </NavLink>
-                <NavLink className="header__link" to="/medicalcare-dollie">
-                <li className="header__item">
-                    <img src={medicalcare} alt="" />
-                    <h3>Medical Care Is Just</h3>
-                    <p>18k views  ·  2 days ago <span>Dollie Blair</span></p>
-                </li>
-                </NavLink>
-                <NavLink className="header__link" to="/moongazing-dollie">
-                <li className="header__item">
-                    <img src={moongazing} alt="" />
+                    <NavLink className="header__link" to="/moon-edward">
+                    <li className="header__item">
+                    <img src={moon} alt="" />
                     <h3>Moon Gazing</h3>
-                    <p>67k views  ·  4 months ago <span>Dollie Blair</span></p>
+                    <p>54k views  ·  11 months ago <span>Edward Osborne</span></p>
+                </li>
+                    </NavLink>
+                <NavLink className="header__link" to="/moonred-dollie">
+                <li className="header__item">
+                    <img src={moonred} alt="" />
+                    <h3>Moon Gazing</h3>
+                    <p>125k views  ·  4 months ago<span>Dollie Blair</span></p>
                 </li>
                 </NavLink>
             </ul>
@@ -115,4 +91,4 @@ const Abrief = () => {
     );
 }
 
-export default Abrief;
+export default MoonRed;

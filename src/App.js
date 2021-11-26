@@ -11,6 +11,12 @@ import Foodprofile from './Components/Profile/FoodProfile';
 import Asteroids from './Components/Special/asteroids';
 import Abrief from './Components/Special/Abrief';
 import Selecting from './Components/Special/Selecting';
+import Telescopes from './Components/Special/Telescopes';
+import Medicalcare from './Components/Special/Medicalcare';
+import Moongazing from './Components/Special/Moongazing';
+import Moon from './Components/Special/Moon';
+import Dude from './Components/Special/Dude';
+import MoonRed from './Components/Special/MoonRed';
 
 function App() {
   return (
@@ -28,6 +34,12 @@ function App() {
         <Route path="/asteroids-dollie" element={<Asteroids/>} />
         <Route path="/abriefhistory" element={<Abrief/>} />
         <Route path="/selecting-dollie" element={<Selecting/>} />
+        <Route path="/telescopes-dollie" element={<Telescopes/>} />
+        <Route path="/medicalcare-dollie" element={<Medicalcare/>} />
+        <Route path="/moongazing-dollie" element={<Moongazing/>} />
+        <Route path="/moon-edward" element={<Moon/>} />
+        <Route path="/dude-gussie" element={<Dude/>} />
+        <Route path="/moonred-dollie" element={<MoonRed/>} />
       </Routes>
       </div>
     </div>

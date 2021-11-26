@@ -63,7 +63,7 @@ export default class Responsive extends Component {
                     <p>80k views  ·  3 days ago <span>Dollie Blair</span></p>
                 </li>
           </NavLink>
-          <NavLink to="/" className="header__link" >
+          <NavLink to="/selecting-dollie" className="header__link" >
                 <li className="header__item">
                     <img src={selecting} alt="" />
                     <h3>Selecting The Right Hotel</h3>
@@ -77,21 +77,21 @@ export default class Responsive extends Component {
                     <p>43k views  ·  12 days ago <span>Dollie Blair</span></p>
                 </li>
                   </NavLink>
-          <NavLink to="/" className="header__link" >
+          <NavLink to="/telescopes-dollie" className="header__link" >
                 <li className="header__item">
                     <img src={telescopes} alt="" />
                     <h3>Telescopes 101</h3>
                     <p>11k views  ·  6 months ago  <span>Dollie Blair</span></p>
                 </li>
                 </NavLink>
-          <NavLink to="/" className="header__link" >
+          <NavLink to="/medicalcare-dollie" className="header__link" >
                 <li className="header__item">
                     <img src={medicalcare} alt="" />
                     <h3>Medical Care Is Just</h3>
                     <p>18k views  ·  2 days ago <span>Dollie Blair</span></p>
                 </li>
                 </NavLink>
-          <NavLink to="/" className="header__link" >
+          <NavLink to="/moongazing-dollie" className="header__link" >
                 <li className="header__item">
                     <img src={moongazing} alt="" />
                     <h3>Moon Gazing</h3>

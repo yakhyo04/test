@@ -20,7 +20,7 @@ const Selecting = () => {
             <div className="special__div">
                 <nav className="special__nav">
                 <img className="asteroids" src={selecting} alt="" />
-                <h1 className="special__title">Selecting</h1>
+                <h1 className="special__title">Selecting The Right Hotel</h1>
                 <div className="special__div">
                     <nav>
                         <p>123K views</p>
@@ -73,7 +73,7 @@ const Selecting = () => {
                     <p>80k views  ·  3 days ago <span>Dollie Blair</span></p>
                 </li>
                     </NavLink>
-                    <NavLink className="header__link" to="/">
+                    <NavLink className="header__link" to="/selecting-dollie">
                 <li className="header__item">
                     <img src={selecting} alt="" />
                     <h3>Selecting The Right Hotel</h3>
@@ -87,21 +87,21 @@ const Selecting = () => {
                     {/* <p>43k views  ·  12 days ago <span>Dollie Blair</span></p> */}
                 </li>
                 </NavLink>
-                <NavLink className="header__link" to="/">
+                <NavLink className="header__link" to="/telescopes-dollie">
                 <li className="header__item">
                     <img src={telescopes} alt="" />
                     <h3>Telescopes 101</h3>
                     <p>11k views  ·  6 months ago  <span>Dollie Blair</span></p>
                 </li>
                 </NavLink>
-                <NavLink className="header__link" to="/">
+                <NavLink className="header__link" to="/medicalcare-dollie">
                 <li className="header__item">
                     <img src={medicalcare} alt="" />
                     <h3>Medical Care Is Just</h3>
                     <p>18k views  ·  2 days ago <span>Dollie Blair</span></p>
                 </li>
                 </NavLink>
-                <NavLink className="header__link" to="/">
+                <NavLink className="header__link" to="/moongazing-dollie">
                 <li className="header__item">
                     <img src={moongazing} alt="" />
                     <h3>Moon Gazing</h3>
