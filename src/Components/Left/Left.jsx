@@ -21,7 +21,7 @@ import {NavLink} from 'react-router-dom';
 
 const Left = () => {
     return (
-        <div>
+        <div className="left">
             <ul className="left__list">
                 <li className="left__item"><img src={menu} alt="menu" /><img src={youtube} alt="youtube" /></li>
                 <li className="left__item">
