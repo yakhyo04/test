@@ -15,15 +15,15 @@ export default class Responsive extends Component {
   render() {
     var settings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 1,
       // speed: 10000,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      cssEase: "linear",
-      initialSlide: 0,
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+      // cssEase: "linear",
+      // initialSlide: 0,
       responsive: [
         {
           breakpoint: 1024,
