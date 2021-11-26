@@ -25,7 +25,7 @@ const Left = () => {
             <ul className="left__list">
                 <li className="left__item"><img src={menu} alt="menu" /><img src={youtube} alt="youtube" /></li>
                 <li className="left__item">
-                    <NavLink className="left__link" to="/"><img src={home} alt="home" />Home</NavLink>
+                    <NavLink className="left__link" to="/"><img className="svg__home" src={home} alt="home" />Home</NavLink>
                 </li>
                 <li className="left__item">
                     <NavLink className="left__link" to="/trending"><img src={trending} alt="trending" />Trending</NavLink>
