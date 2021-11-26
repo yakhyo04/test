@@ -10,11 +10,11 @@ import { NavLink } from 'react-router-dom';
 const DollieProfile = () => {
     return (
         <div>
-            <img className="plaincover" src={plaincover} alt="" />
+            <img className="plaincover" src={plaincover} alt="plaincover" />
             <div className="profile__div">
                 <nav className="profile__nav">
                     <div>
-                        <img src={dollieblair} alt="" />
+                        <img src={dollieblair} alt="dollieblair" />
                     </div>
                     <div>
                         <h2>Dollie Blair</h2>
@@ -22,7 +22,7 @@ const DollieProfile = () => {
                     </div>
                 </nav>
                 <nav className="profile__navbar">
-                    <img src={notifications} alt="" />
+                    <img src={notifications} alt="notifications" />
                     <a className="profile__btn" href="#">Subscribe 2.3m</a>
                 </nav>
             </div>
@@ -30,7 +30,7 @@ const DollieProfile = () => {
                 <li className="profile__item">
                     <NavLink className="profile__link" to="/dollieblair">Home</NavLink>
                 </li>
-                <li className="profile__item"><a className="profile__link" href="#">Videos</a></li>
+                <li className="profile__item"><a href="#" className="profile__link">Videos</a></li>
                 <li className="profile__item"><a className="profile__link" href="#">Playlists</a></li>
                 <li className="profile__item"><a className="profile__link" href="#">Channels</a></li>
                 <li className="profile__item"><a className="profile__link" href="#">Discussion</a></li>
@@ -41,7 +41,7 @@ const DollieProfile = () => {
             <div className="profile__div2">
                 <nav>
                 <NavLink to="/asteroids-dollie">
-                <img width="500px" src={asteroids} alt="" />
+                <img width="500px" src={asteroids} alt="asteroids" />
                 </NavLink>
                 </nav>
                 <nav className="profile__navv">

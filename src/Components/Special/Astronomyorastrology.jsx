@@ -19,7 +19,7 @@ const Astronomyorastrology = () => {
         <div>
             <div className="special__div">
                 <nav className="special__nav">
-                <img className="asteroids" src={astronomyorastrology} alt="" />
+                <img className="asteroids" src={astronomyorastrology} alt="astronomyorastrology" />
                 <h1 className="special__title">Astronomy Or Astrology</h1>
                 <div className="special__div">
                     <nav>
@@ -28,19 +28,19 @@ const Astronomyorastrology = () => {
                     <nav>
                         <ul className="special__list">
                             <li className="special__item">
-                                <img src={good} alt="" />
+                                <img src={good} alt="good" />
                                 145k
                             </li>
                             <li className="special__item">
-                                <img src={bad} alt="" />
+                                <img src={bad} alt="bad" />
                                 298k
                             </li>
                             <li className="special__item">
-                                <img src={share} alt="" />
+                                <img src={share} alt="share" />
                                 Share
                             </li>
                             <li className="special__item">
-                                <img src={threedots} alt="" />
+                                <img src={threedots} alt="threedots" />
                             </li>
                         </ul>
                 </nav>
@@ -48,7 +48,7 @@ const Astronomyorastrology = () => {
                     <nav className="divs">
                         <nav className="profile__div">
                            <div>
-                            <img src={Margaret} alt="" />
+                            <img src={Margaret} alt="Margaret" />
                            </div>
                            <div>
                            <h2>Margaret Phelps</h2>
@@ -56,7 +56,7 @@ const Astronomyorastrology = () => {
                         </div>
                            </nav>
                            <nav>
-                           <img src={notifications} alt="" />
+                           <img src={notifications} alt="notifications" />
                     <a className="profile__btn" href="#">Subscribe 2.3m</a>
                            </nav>
                 </nav>
@@ -68,42 +68,42 @@ const Astronomyorastrology = () => {
                 <ul style={{display: 'block', marginTop: '100px'}} className="header__list">
                 <NavLink className="header__link" to="/astronomyorastrology-food">
                 <li className="profile__subitem">
-                    <img src={astronomyorastrology} alt="" />
+                    <img src={astronomyorastrology} alt="astronomyorastrology" />
                     <h3>Astronomy Or Astrology</h3>
                     <p>240k views  ·  4 months ago <span>Food & Drink</span></p>
                 </li>
           </NavLink>
           <NavLink className="header__link" to="/advertisingoutdoors-food">
                 <li className="profile__subitem">
-                    <img src={advertisingoutdoors} alt="" />
+                    <img src={advertisingoutdoors} alt="advertisingoutdoors" />
                     <h3>Advertising Outdoors</h3>
                     <p>13k views  ·  15 days ago <span>Food & Drink</span></p>
                 </li>
                 </NavLink>
                 <NavLink className="header__link" to="/radioastronomy-food">
                 <li className="profile__subitem">
-                    <img src={radioastronomy} alt="" />
+                    <img src={radioastronomy} alt="radioastronomy" />
                     <h3>Radio Astronomy</h3>
                 <p>1k views  ·  11 months ago <span>Food & Drink</span></p>
                 </li>
                 </NavLink>
                 <NavLink className="header__link" to="/autoresponder-food">
                 <li className="profile__subitem">
-                    <img src={autoresponder} alt="" />
+                    <img src={autoresponder} alt="autoresponder" />
                     <h3>A Good Autoresponder</h3>
                 <p>45k views  ·  2 months ago <span>Food & Drink</span></p>
                 </li>
                 </NavLink>
                 <NavLink className="header__link" to="/babymonitor-food">
                 <li className="profile__subitem">
-                    <img src={babymonitor} alt="" />
+                    <img src={babymonitor} alt="babymonitor" />
                     <h3>Baby Monitor Technology</h3>
                 <p>86k views  ·  7 days ago <span>Food & Drink</span></p>
                 </li>
                 </NavLink>
                 <NavLink className="header__link" to="/astreoids2-food">
                 <li className="profile__subitem">
-                    <img src={astreoids2} alt="" />
+                    <img src={astreoids2} alt="astreoids2" />
                     <h3>Asteroids</h3>
                 <p>123k views  ·  4 months ago <span>Dollie Blair</span></p>
                 </li>

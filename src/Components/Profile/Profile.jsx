@@ -17,7 +17,7 @@ const Profile = () => {
             <div className="profile__div">
                 <nav className="profile__nav">
                     <div>
-                        <img src={margaret} alt="" />
+                        <img src={margaret} alt="margaret" />
                     </div>
                     <div>
                         <h2>Margaret Phelps</h2>
@@ -25,7 +25,7 @@ const Profile = () => {
                     </div>
                 </nav>
                 <nav className="profile__navbar">
-                    <img src={notifications} alt="" />
+                    <img src={notifications} alt="notifications" />
                     <a className="profile__btn" href="#">Subscribe 2.3m</a>
                 </nav>
             </div>
@@ -44,7 +44,7 @@ const Profile = () => {
             <div className="profile__div2">
                 <nav>
                     <NavLink to="/choosing" className="header__link">
-                <img src={choosing} alt="" />
+                <img src={choosing} alt="choosing" />
                     </NavLink>
                 </nav>
                 <nav className="profile__navv">
@@ -60,8 +60,8 @@ const Profile = () => {
                 <h1>Margaret Phelps videos</h1>
                 </nav>
                 <nav className="profile__icons">
-                    <img src={left} alt="" />
-                    <img src={right} alt="" />
+                    <img src={left} alt="left" />
+                    <img src={right} alt="right" />
                 </nav>
             </div>
             {/* <ul className="profile__submenu">

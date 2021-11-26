@@ -19,7 +19,7 @@ const Asteroid = () => {
         <div>
             <div className="special__div">
                 <nav className="special__nav">
-                <img className="asteroids" src={asteroid} alt="" />
+                <img className="asteroids" src={asteroid} alt="asteroid" />
                 <h1 className="special__title">Asteroids</h1>
                 <div className="special__div">
                     <nav>
@@ -28,19 +28,19 @@ const Asteroid = () => {
                     <nav>
                         <ul className="special__list">
                             <li className="special__item">
-                                <img src={good} alt="" />
+                                <img src={good} alt="good" />
                                 145k
                             </li>
                             <li className="special__item">
-                                <img src={bad} alt="" />
+                                <img src={bad} alt="bad" />
                                 298k
                             </li>
                             <li className="special__item">
-                                <img src={share} alt="" />
+                                <img src={share} alt="share" />
                                 Share
                             </li>
                             <li className="special__item">
-                                <img src={threedots} alt="" />
+                                <img src={threedots} alt="threedots" />
                             </li>
                         </ul>
                 </nav>
@@ -48,7 +48,7 @@ const Asteroid = () => {
                     <nav className="divs">
                         <nav className="profile__div">
                            <div>
-                            <img src={fooddrink} alt="" />
+                            <img src={fooddrink} alt="fooddrink" />
                            </div>
                            <div>
                            <h2>Food & Drink</h2>
@@ -56,7 +56,7 @@ const Asteroid = () => {
                         </div>
                            </nav>
                            <nav>
-                           <img src={notifications} alt="" />
+                           <img src={notifications} alt="notifications" />
                     <a className="profile__btn" href="#">Subscribe 2.3m</a>
                            </nav>
                 </nav>
@@ -68,42 +68,42 @@ const Asteroid = () => {
                 <ul style={{display: 'block', marginTop: '100px'}} className="header__list">
                 <NavLink to="/astronomy-food" className="header__link">
                 <li className="header__item">
-                    <img src={astronomy} alt="" />
+                    <img src={astronomy} alt="astronomy" />
                     <h3>Astronomy Or Astrology</h3>
                     <p>240k views  ·  4 months ago <span>Food & Drink</span></p>
                 </li>
           </NavLink>
           <NavLink to="/advertising-food" className="header__link">
                 <li className="header__item">
-                    <img src={advertising} alt="" />
+                    <img src={advertising} alt="advertising" />
                     <h3>Advertising Outdoors</h3>
                     <p>13k views  ·  15 days ago <span>Food & Drink</span></p>
                 </li>
           </NavLink>
           <NavLink to="/radio-food" className="header__link">
                 <li className="header__item">
-                    <img src={radio} alt="" />
+                    <img src={radio} alt="radio" />
                     <h3>Radio Astronomy</h3>
                     <p>1k views  ·  11 months ago <span>Food & Drink</span></p>
                 </li>
           </NavLink>
           <NavLink to="/agood-food" className="header__link">
                 <li className="header__item">
-                    <img src={agood} alt="" />
+                    <img src={agood} alt="agood" />
                     <h3>A Good Autoresponder</h3>
                     <p>45k views  ·  2 months ago <span>Food & Drink</span></p>
                 </li>
           </NavLink>
           <NavLink to="/baby-food" className="header__link">
                 <li className="header__item">
-                    <img src={baby} alt="" />
+                    <img src={baby} alt="baby" />
                     <h3>Baby Monitor Technology</h3>
                     <p>86k views  ·  7 days ago <span>Food & Drink</span></p>
                 </li>
           </NavLink>
           <NavLink to="/asteroid-food" className="header__link">
                 <li className="header__item">
-                    <img src={asteroid} alt="" />
+                    <img src={asteroid} alt="asteroid" />
                     <h3>Asteroids</h3>
                     <p>123k views  ·  4 months ago <span>Dollie Blair</span></p>
                 </li>

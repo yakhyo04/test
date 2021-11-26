@@ -10,11 +10,11 @@ import { NavLink } from 'react-router-dom';
 const Foodprofile = () => {
     return (
         <div>
-            <img className="food__img" src={food} alt="" />
+            <img className="food__img" src={food} alt="food" />
             <div className="profile__div">
                 <nav className="profile__nav">
                 <div>
-                        <img src={fooddrink} alt="" />
+                        <img src={fooddrink} alt="fooddrink" />
                     </div>
                     <div>
                         <h2>Food & Drink</h2>
@@ -22,7 +22,7 @@ const Foodprofile = () => {
                     </div>
                 </nav>
                 <nav className="profile__navbar">
-                <img src={notifications} alt="" />
+                <img src={notifications} alt="notifications" />
                     <a className="profile__btn" href="#">Subscribe 2.3m</a>
                 </nav>
             </div>
@@ -35,12 +35,12 @@ const Foodprofile = () => {
                 <li className="profile__item"><a className="profile__link" href="#">Channels</a></li>
                 <li className="profile__item"><a className="profile__link" href="#">Discussion</a></li>
                 <li className="profile__item"><a className="profile__link" href="#">About</a></li>
-                <li className="profile__item"><img src={search} alt="" /></li>
+                <li className="profile__item"><img src={search} alt="search" /></li>
             </ul>
 
             <div className="profile__div2">
                 <nav>
-                <img width="500px" src={advertising} alt="" />
+                <img width="500px" src={advertising} alt="advertising" />
                 </nav>
                 <nav className="profile__navv">
                     <h3 className="profile__title2">Advertising Outdoors</h3>

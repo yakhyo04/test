@@ -65,21 +65,21 @@ const Moon = () => {
                 <ul style={{display: 'block', marginTop: '100px'}} className="header__list">
                     <NavLink className="header__link" to="/dude-gussie">
                     <li className="header__item">
-                    <img style={{width: '280px'}} src={dude} alt="" />
+                    <img style={{width: '280px'}} src={dude} alt="dude" />
                     <h3>Dude You Re Getting A Telescope</h3>
                     <p>34k views  ·  5 months ago <span>Gussie French</span></p>
                 </li>
                     </NavLink>
                     <NavLink className="header__link" to="/moon-edward">
                     <li className="header__item">
-                    <img style={{width: '280px'}} src={moon} alt="" />
+                    <img style={{width: '280px'}} src={moon} alt="moon" />
                     <h3>Moon Gazing</h3>
                     <p>54k views  ·  11 months ago <span>Edward Osborne</span></p>
                 </li>
                     </NavLink>
                 <NavLink className="header__link" to="/moonred-dollie">
                 <li className="header__item">
-                    <img style={{width: '280px'}} src={moonred} alt="" />
+                    <img style={{width: '280px'}} src={moonred} alt="moonred" />
                     <h3>Moon Gazing</h3>
                     <p>125k views  ·  4 months ago<span>Dollie Blair</span></p>
                 </li>

@@ -13,7 +13,7 @@ const Header = () => {
         <header className="header">
             <NavLink className="header__link" to="/dollieblair">
             <p className="header__text">
-                <img src={dollieblair} alt="" />Dollie Blair
+                <img src={dollieblair} alt="dollieblair" />Dollie Blair
             </p>
             </NavLink>
             {/* <ul className="header__list">
@@ -104,7 +104,7 @@ const Header = () => {
             </ul> */}
             <NavLink className="header__link" to="/foodanddrink">
             <div className="header__div">
-                <img src={fooddrink} alt="" />
+                <img src={fooddrink} alt="fooddrink" />
                 <h2>Food & Drink</h2>
                 <p>Recommended channel for you</p>
             </div>
