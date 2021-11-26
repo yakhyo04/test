@@ -1,0 +1,17 @@
+.asteroids{
+    width: 650px;
+}
+
+.special__div{
+    display: flex;
+}
+.special__nav{
+    display: block;
+    position: relative;
+    top: 100px;
+    right: 160px;
+}
+.special__title{
+    font-size: 30px;
+    font-weight: bold;
+}
