@@ -48,7 +48,9 @@ const Moon = () => {
                             <img width="50px" src={edward} alt="" />
                            </div>
                            <div>
+                           <NavLink className="header__link" to="/edward">
                            <h2>Edward Osborne</h2>
+                           </NavLink>
                            <p style={{color: '#C2C2C2', fontWeight: 'bold', fontSize: '18px'}}>245K subscribed</p>
                         </div>
                            </nav>

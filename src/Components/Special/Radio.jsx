@@ -51,7 +51,9 @@ const Radio = () => {
                             <img src={fooddrink} alt="" />
                            </div>
                            <div>
+                           <NavLink className="header__link" to="/foodanddrink">
                            <h2>Food & Drink</h2>
+                           </NavLink>
                            <p style={{color: '#C2C2C2', fontWeight: 'bold', fontSize: '18px'}}>245K subscribed</p>
                         </div>
                            </nav>

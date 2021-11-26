@@ -52,7 +52,9 @@ const Choosing = () => {
                             <img src={Margaret} alt="Margaret" />
                            </div>
                            <div>
+                           <NavLink className="header__link" to="/margaret">
                            <h2>Margaret Phelps</h2>
+                           </NavLink>
                            <p style={{color: '#C2C2C2', fontWeight: 'bold', fontSize: '18px'}}>245K subscribed</p>
                         </div>
                            </nav>

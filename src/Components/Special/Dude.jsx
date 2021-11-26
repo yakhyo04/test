@@ -48,7 +48,9 @@ const Dude = () => {
                             <img src={gussie} alt="gussie" />
                            </div>
                            <div>
+                           <NavLink className="header__link" to="/gussie">
                            <h2>Gussie French</h2>
+                           </NavLink>
                            <p style={{color: '#C2C2C2', fontWeight: 'bold', fontSize: '18px'}}>245K subscribed</p>
                         </div>
                            </nav>
