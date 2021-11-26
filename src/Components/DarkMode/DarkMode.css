@@ -17,6 +17,6 @@
   }
   
   #darkMode.clicked {
-    filter: none !important;
+    /* filter: none !important; */
     background-color: rgb(144, 137, 137);
   }

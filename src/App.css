@@ -47,8 +47,8 @@ body{
 
 
 :root {
-  --blue: rgb(26, 57, 87);
   --white: rgb(236, 236, 236);
+  --blue: rgb(26, 57, 87);
 }
 body.light {
   --background-color: var(--white);
