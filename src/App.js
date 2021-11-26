@@ -7,6 +7,7 @@ import Profile from './Components/Profile/Profile';
 import Swiper from './Components/Swiper/Swiper';
 import Picture from './Components/Picture/Picture';
 import DollieProfile from './Components/Profile/DollieProfile';
+import Foodprofile from './Components/Profile/FoodProfile';
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
         <Route path="/swipper" element={<Swiper/>}/>
         <Route path="/picture" element={<Picture/>}/>
         <Route path="/dollieblair" element={<DollieProfile/>} />
+        <Route path="/foodanddrink" element={<Foodprofile/>}/>
       </Routes>
       </div>
+      
     </div>
   );
 }

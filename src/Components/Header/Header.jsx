@@ -69,11 +69,7 @@ const Header = () => {
                 </li>
             </ul> */}
             <Recomended />
-            <div className="header__div">
-                <img src={fooddrink} alt="" />
-                <h2>Food & Drink</h2>
-                <p>Recommended channel for you</p>
-            </div>
+            
             {/* <ul className="header__list">
                 <li className="header__item">
                     <img src={astronomy} alt="" />
@@ -106,6 +102,13 @@ const Header = () => {
                     <p>123k views  ·  4 months ago <span>Dollie Blair</span></p>
                 </li>
             </ul> */}
+            <NavLink className="header__link" to="/foodanddrink">
+            <div className="header__div">
+                <img src={fooddrink} alt="" />
+                <h2>Food & Drink</h2>
+                <p>Recommended channel for you</p>
+            </div>
+            </NavLink>
             <FoodDrink/>
         </header>
     );
