@@ -6,9 +6,12 @@ import dots from '../../Assets/Svg/dots.svg';
 import notifications from '../../Assets/Svg/notifications.svg';
 import profilepic from '../../Assets/Svg/profilepic.svg';
 import DarkMode from '../DarkMode/DarkMode';
+import youtube from '../../Assets/Image/youtube.png';
+
 
 const Top = () => {
     return (
+        <>
         <div className="top">
             <nav className="top__nav">
             <div className="top__div">
@@ -36,6 +39,14 @@ const Top = () => {
             </div>
             </nav>
         </div>
+        <div className="left__bottom">
+            <ul className="top__submenu">
+                <li className="top__subitem"><img src={youtube} alt="" /></li>
+                {/* <li className="top__subitem"></li> */}
+                <li className="top__subitem"><img src={search} alt="" /><img src={profilepic} alt="" /></li>
+            </ul>
+        </div>
+        </>
     );
 }
 

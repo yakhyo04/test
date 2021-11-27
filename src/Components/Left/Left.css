@@ -33,3 +33,10 @@
 path{
     fill: red;
 }
+
+
+@media (max-width: 550px){
+    .left{
+        display: none;
+    }
+}

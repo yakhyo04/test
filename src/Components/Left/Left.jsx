@@ -21,6 +21,7 @@ import {NavLink} from 'react-router-dom';
 
 const Left = () => {
     return (
+        <>
         <div className="left">
             <ul className="left__list">
                 <li className="left__item"><img src={menu} alt="menu" /><img src={youtube} alt="youtube" /></li>
@@ -54,6 +55,14 @@ const Left = () => {
                 <li className="left__item"><NavLink className="left__link" to="setting"><img src={setting} alt="setting" />Setting</NavLink></li>
             </ul>
         </div>
+        {/* <div className="left__bottom">
+            <ul>
+                <li><img src={youtube} alt="" /></li>
+                <li><img src={search} alt="" /></li>
+                <li><img src={profilepic} alt="" /></li>
+            </ul>
+        </div> */}
+        </>
     );
 }
 

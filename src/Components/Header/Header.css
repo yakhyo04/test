@@ -25,3 +25,17 @@
     text-decoration: none;
     color: #898989;
 }
+.header__submenu{
+    list-style-type: none;
+    display: none;
+}
+
+@media (max-width: 550px){
+    .header__submenu{
+        display: block;
+        margin: 100px 0 0 30px;
+    }
+    .header{
+        display: none;
+    }
+}

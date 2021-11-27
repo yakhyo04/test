@@ -96,3 +96,9 @@
     margin-top: 80px;
     border-radius: 8px;
 }
+
+/* @media (max-width: 550px){
+    .dollie__profile{
+        width: 400px;
+    }
+} */

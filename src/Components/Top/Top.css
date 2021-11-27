@@ -32,3 +32,29 @@
 .top__item{
     margin-left: 30px;
 }
+.left__bottom{
+    display: none;
+}
+
+@media (max-width: 550px){
+    .top{
+        display: none;
+    }
+    .left__bottom{
+        display: flex;
+        position: absolute;
+    }
+    .top__submenu{
+        width: 300px;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .top__subitem{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+}

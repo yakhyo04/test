@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 
 const DollieProfile = () => {
     return (
-        <div>
+        <div className="dollie__profile">
             <img className="plaincover" src={plaincover} alt="plaincover" />
             <div className="profile__div">
                 <nav className="profile__nav">

@@ -30,6 +30,7 @@ import Autoresponder from './Components/Special/Autoresponder';
 import Babymonitor from './Components/Special/Babymonitor';
 import Radioastronomy from './Components/Special/Radioastronomy';
 import Choosing from './Components/Special/Choosing';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
         <Route path="/choosing" element={<Choosing/>} />
       </Routes>
       </div>
+      <Footer/>
     </div>
   );
 }

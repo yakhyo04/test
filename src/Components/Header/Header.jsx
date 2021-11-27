@@ -3,6 +3,12 @@ import React from 'react';
 import dollieblair from '../../Assets/Image/dollieblair.png';
 import fooddrink from '../../Assets/Image/fooddrink.png';
 import Swiper from '../Swiper/Swiper';
+import abrief from '../../Assets/Image/abrief.png';
+import selecting from '../../Assets/Image/selecting.png';
+import asteroids from '../../Assets/Image/asteroids.png';
+import telescopes from '../../Assets/Image/telescopes.png';
+import moongazing from '../../Assets/Image/moongazing.png';
+import medicalcare from '../../Assets/Image/medicalcare.png';
 import Recomended from '../Swiper/Recomended';
 import FoodDrink from '../Swiper/FoodDrink';
 import { NavLink } from 'react-router-dom';
@@ -10,6 +16,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     
     return (
+        <>
         <header className="header">
             <NavLink className="header__link" to="/dollieblair">
             <p className="header__text">
@@ -111,6 +118,55 @@ const Header = () => {
             </NavLink>
             <FoodDrink/>
         </header>
+
+
+
+
+        <ul className="header__submenu">
+          <NavLink to="/abriefhistory" className="header__link" >
+                <li className="header__subitem">
+                    <img src={abrief} alt="" />
+                    <h3>A Brief History Of Creation</h3>
+                    <p>80k views  ·  3 days ago <span>Dollie Blair</span></p>
+                </li>
+                </NavLink>
+          <NavLink to="/selecting-dollie" className="header__link" >
+                <li className="header__subitem">
+                    <img src={selecting} alt="" />
+                    <h3>Selecting The Right Hotel</h3>
+                    <p>123k views  ·  1 months ago <span>Dollie Blair</span></p>
+                </li>
+                </NavLink>
+          <NavLink to="/asteroids-dollie" className="header__link" >
+                <li className="header__subitem">
+                    <img src={asteroids} alt="" />
+                    <h3>Asteroids</h3>
+                    <p>43k views  ·  12 days ago <span>Dollie Blair</span></p>
+                </li>
+                </NavLink>
+          <NavLink to="/telescopes-dollie" className="header__link" >
+                <li className="header__subitem">
+                    <img src={telescopes} alt="" />
+                    <h3>Telescopes 101</h3>
+                    <p>11k views  ·  6 months ago  <span>Dollie Blair</span></p>
+                </li>
+                </NavLink>
+          <NavLink to="/medicalcare-dollie" className="header__link" >
+                <li className="header__subitem">
+                    <img src={medicalcare} alt="" />
+                    <h3>Medical Care Is Just</h3>
+                    <p>18k views  ·  2 days ago <span>Dollie Blair</span></p>
+                </li>
+                </NavLink>
+          <NavLink to="/moongazing-dollie" className="header__link" >
+                <li className="header__subitem">
+                    <img src={moongazing} alt="" />
+                    <h3>Moon Gazing</h3>
+                    <p>67k views  ·  4 months ago <span>Dollie Blair</span></p>
+                </li>
+                </NavLink>
+            </ul>
+        </>
     );
 }
 

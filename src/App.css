@@ -32,9 +32,13 @@ body{
     width: 500px;
   }
 }
-@media (max-width: 500px){
+@media (max-width: 550px){
   .container{
     width: 400px;
+  }
+  .app__div{
+    width: 400px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 400px){
