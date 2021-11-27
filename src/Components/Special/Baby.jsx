@@ -66,7 +66,7 @@ const Baby = () => {
                            <p style={{width: '600px'}} className="profile__description">Your cheap internet-based banner advertising will become one of the sought for ads there are. Today, the world of Internet advertising is rapidly evolving beyond banner ads and intrusive pop-ups. Bayles A common medium for advertising on the Internet is the use of banner ads. Dollie Blair</p>
                            </nav>
                 </nav>
-                <nav>
+                <nav className="special__nav-navbar">
                 <ul style={{display: 'block', marginTop: '100px'}} className="header__list">
                 <NavLink to="/astronomy-food" className="header__link">
                 <li className="header__item">

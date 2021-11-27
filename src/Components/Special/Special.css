@@ -39,4 +39,23 @@
     .asteroids{
         width: 350px;
     }
+    .special__nav-navbar{
+        display: none;
+    }
+    .divs{
+        display: block;
+    }
+    .profile__div{
+        display: block;
+    }
+    .profile__description{
+        width: 350px !important;
+        font-size: 16px;
+    }
+    .special__div{
+        width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 180px;
+    }
 }

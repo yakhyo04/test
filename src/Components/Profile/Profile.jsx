@@ -44,7 +44,7 @@ const Profile = () => {
             <div className="profile__div2">
                 <nav>
                     <NavLink to="/choosing" className="header__link">
-                <img src={choosing} alt="choosing" />
+                <img className="maxwidth__img" src={choosing} alt="choosing" />
                     </NavLink>
                 </nav>
                 <nav className="profile__navv">

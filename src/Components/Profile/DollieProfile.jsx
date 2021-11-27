@@ -41,7 +41,7 @@ const DollieProfile = () => {
             <div className="profile__div2">
                 <nav>
                 <NavLink to="/asteroids-dollie">
-                <img width="500px" src={asteroids} alt="asteroids" />
+                <img className="maxwidth__img" width="500px" src={asteroids} alt="asteroids" />
                 </NavLink>
                 </nav>
                 <nav className="profile__navv">

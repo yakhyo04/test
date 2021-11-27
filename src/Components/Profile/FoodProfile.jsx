@@ -40,7 +40,7 @@ const Foodprofile = () => {
 
             <div className="profile__div2">
                 <nav>
-                <img width="500px" src={advertising} alt="advertising" />
+                <img className="maxwidth__img" width="500px" src={advertising} alt="advertising" />
                 </nav>
                 <nav className="profile__navv">
                     <h3 className="profile__title2">Advertising Outdoors</h3>

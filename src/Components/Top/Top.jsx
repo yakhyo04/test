@@ -7,6 +7,7 @@ import notifications from '../../Assets/Svg/notifications.svg';
 import profilepic from '../../Assets/Svg/profilepic.svg';
 import DarkMode from '../DarkMode/DarkMode';
 import youtube from '../../Assets/Image/youtube.png';
+import { NavLink } from 'react-router-dom';
 
 
 const Top = () => {
@@ -41,7 +42,9 @@ const Top = () => {
         </div>
         <div className="left__bottom">
             <ul className="top__submenu">
+            <NavLink to="/" className="header__link" >
                 <li className="top__subitem"><img src={youtube} alt="" /></li>
+                </NavLink>
                 {/* <li className="top__subitem"></li> */}
                 <li className="top__subitem"><DarkMode/><img src={search} alt="" /><img src={profilepic} alt="" /></li>
             </ul>

@@ -110,4 +110,13 @@
     .profile__greencover{
         width: 350px;
     }
+    .profile__list{
+        display: none;
+    }
+    .profile__div2{
+        display: block;
+    }
+    .maxwidth__img{
+        width: 350px !important;
+    }
 }
