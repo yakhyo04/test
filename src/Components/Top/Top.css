@@ -45,14 +45,14 @@
         position: absolute;
     }
     .top__submenu{
-        width: 300px;
+        width: 320px;
         list-style-type: none;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     .top__subitem{
-        width: 100px;
+        width: 150px;
         display: flex;
         align-items: center;
         justify-content: space-between;

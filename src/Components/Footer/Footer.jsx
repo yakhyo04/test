@@ -13,9 +13,15 @@ const Footer = () => {
             <NavLink to="/" className="header__link" >
                 <li className="footer__item"><img src={home} alt="" /></li>
                 </NavLink>
+            <NavLink to="/trending" className="header__link" >
                 <li className="footer__item"><img src={trending} alt="" /></li>
+                </NavLink>
+            <NavLink to="/subscribtions" className="header__link" >
                 <li className="footer__item"><img src={subscribtions} alt="" /></li>
+                </NavLink>
+            <NavLink to="/library" className="header__link" >
                 <li className="footer__item"><img src={library} alt="" /></li>
+                </NavLink>
             </ul>
         </div>
     );

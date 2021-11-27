@@ -97,8 +97,17 @@
     border-radius: 8px;
 }
 
-/* @media (max-width: 550px){
+@media (max-width: 550px){
     .dollie__profile{
         width: 400px;
     }
-} */
+    .plaincover{
+        width: 350px;
+    }
+    .food__img{
+        width: 350px;
+    }
+    .profile__greencover{
+        width: 350px;
+    }
+}

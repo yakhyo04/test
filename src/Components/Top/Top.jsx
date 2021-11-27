@@ -43,7 +43,7 @@ const Top = () => {
             <ul className="top__submenu">
                 <li className="top__subitem"><img src={youtube} alt="" /></li>
                 {/* <li className="top__subitem"></li> */}
-                <li className="top__subitem"><img src={search} alt="" /><img src={profilepic} alt="" /></li>
+                <li className="top__subitem"><DarkMode/><img src={search} alt="" /><img src={profilepic} alt="" /></li>
             </ul>
         </div>
         </>
